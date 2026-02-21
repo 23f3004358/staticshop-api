@@ -29,9 +29,24 @@
     {"id": "prod-8de0292e-023", "name": "Standard Item 23", "category": "clothing", "price": 205.27, "stock": 60, "rating": 4.5}
   ],
   "aggregations": {
-    "sports": {
-      "count": 5,
-      "inventoryValue": 81133.75
-    }
+  "sports": {
+    "count": 5,
+    "inventoryValue": 81133.75
+  },
+  "electronics": {
+    "count": 7,
+    "inventoryValue": 332897.05
+  },
+  "books": {
+    "count": 4,
+    "inventoryValue": 205686.22
+  },
+  "home": {
+    "count": 3,
+    "inventoryValue": 131046.44
+  },
+  "clothing": {
+    "count": 4,
+    "inventoryValue": 121654.10
   }
 }
